@@ -4,7 +4,7 @@ const express = require('express');
 const payrouter = express.Router()
 
 
-payrouter.get("/phonepay",(req,res)=>{
+payrouter.post("/phonepay",(req,res)=>{
 
     const options = {
       method: 'POST',
