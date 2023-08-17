@@ -9,7 +9,7 @@ const ProductSchema = mongoose.Schema({
   rating: { type: Number, required: false },
   city: { type: String, required: true },
   weight: { type: String, required: false },
-  multiple_price: { type: Array, required: false},
+  multiple_price: { type: Array, required: false },
   addons: { type: Array, required: false },
   reviews: { type: Array, required: false },
   prod_details: { type: Array, required: true },
